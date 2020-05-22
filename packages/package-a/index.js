@@ -1,1 +1,1 @@
-console.log('package-a 0.1.0');
+console.log('package-a 0.2.0');
