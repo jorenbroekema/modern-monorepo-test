@@ -1,0 +1,17 @@
+{
+  "name": "@modern-monorepo-test/package-all",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modern-monorepo-test/package-a": "^0.1.0",
+    "@modern-monorepo-test/package-b": "~0.1.0",
+    "@modern-monorepo-test/package-c": "0.1.0"
+  }
+}

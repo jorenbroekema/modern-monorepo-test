@@ -1,0 +1,26 @@
+{
+  "name": "@modern-monorepo-test/root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorenbroekema/modern-monorepo-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorenbroekema/modern-monorepo-test/issues"
+  },
+  "homepage": "https://github.com/jorenbroekema/modern-monorepo-test#readme",
+  "dependencies": {
+    "@changesets/cli": "^2.7.2"
+  }
+}
