@@ -1,6 +1,6 @@
 {
   "name": "@modern-monorepo-test/package-all",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,6 @@
   "dependencies": {
     "@modern-monorepo-test/package-a": "^0.1.0",
     "@modern-monorepo-test/package-b": "~0.1.0",
-    "@modern-monorepo-test/package-c": "0.1.0"
+    "@modern-monorepo-test/package-c": "0.2.0"
   }
 }
