@@ -12,6 +12,9 @@ My experiments so far can be seen in the commit history:
 - bumping a package with minor, one that has a dependent package with a fixed version
   - [Making the change + changeset](https://github.com/jorenbroekema/modern-monorepo-test/commit/88ffba8671d244b00012d36a62005e818ffd56ee)
   - [Making the release](https://github.com/jorenbroekema/modern-monorepo-test/commit/4ed46db4ed640847d7fbd32435550faad8aeec49)
+- bumping a package with a minor, but has 2 dependents that are incompatible now with this bump
+  - [Making the change + changeset](https://github.com/jorenbroekema/modern-monorepo-test/commit/f47d8faa838cb77932b15313d237afb54d3c6186)
+  - [Making the release](https://github.com/jorenbroekema/modern-monorepo-test/commit/390d3fdb8930376d8a82ba3227ac31f5c2ae8d60)
 
 Still need to test:
 
