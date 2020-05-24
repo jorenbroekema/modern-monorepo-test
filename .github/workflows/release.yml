@@ -35,7 +35,7 @@ jobs:
           git config --local user.email "joren.broekema@gmail.com"
           git config --local user.name "Joren Broekema"
       - run: git add .
-      - run: |
+      - run: |-
         git commit -m "chore: make release"
 
       - name: Release to NPM
