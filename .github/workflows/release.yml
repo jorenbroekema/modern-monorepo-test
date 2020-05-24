@@ -35,13 +35,12 @@ jobs:
           git config --local user.email "joren.broekema@gmail.com"
           git config --local user.name "Joren Broekema"
       - run: git add .
-      - run: |-
-        git commit -m "chore: make release"
+      - run: "git commit -m 'chore: make release'"
 
       - name: Release to NPM
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: yarn changesets publish --otp=${NPM_TOKEN}
+        run: yarn changeset publish --otp=${NPM_TOKEN}
 
       - name: Push commits and tags to GitHub
         run: git push https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY} --follow-tags
