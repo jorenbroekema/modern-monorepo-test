@@ -5,4 +5,4 @@
 "@modern-monorepo-test/package-c": minor
 ---
 
-Release first versions
+Release first version
