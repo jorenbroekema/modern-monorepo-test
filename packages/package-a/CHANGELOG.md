@@ -1,6 +1,13 @@
 # @modern-monorepo-test/package-a
 
+## 0.2.0
+
+### Minor Changes
+
+- d8530d6: Upgrade to 0.2.0 to change the console log
+
 ## 0.1.0
+
 ### Minor Changes
 
 - 7e99b28: Release first versions
