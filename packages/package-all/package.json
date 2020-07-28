@@ -1,6 +1,6 @@
 {
   "name": "@modern-monorepo-test/package-all",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,9 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@modern-monorepo-test/package-a": "^0.2.1",
-    "@modern-monorepo-test/package-b": "~0.1.0",
-    "@modern-monorepo-test/package-c": "0.1.2"
+    "@modern-monorepo-test/package-a": "^0.2.2",
+    "@modern-monorepo-test/package-b": "~0.1.2",
+    "@modern-monorepo-test/package-c": "0.1.3"
   },
   "publishConfig": {
     "access": "public"
