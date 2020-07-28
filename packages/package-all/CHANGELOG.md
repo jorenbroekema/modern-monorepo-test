@@ -1,5 +1,14 @@
 # @modern-monorepo-test/package-all
 
+## 0.1.2
+
+### Patch Changes
+
+- Updated dependencies [4ced44a]
+- Updated dependencies [276698e]
+  - @modern-monorepo-test/package-a@0.2.1
+  - @modern-monorepo-test/package-c@0.1.2
+
 ## 0.1.1
 
 ### Patch Changes

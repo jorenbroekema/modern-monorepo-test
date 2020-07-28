@@ -1,5 +1,13 @@
 # @modern-monorepo-test/package-c
 
+## 0.1.2
+
+### Patch Changes
+
+- 276698e: Add a new thing for package-c
+- Updated dependencies [4ced44a]
+  - @modern-monorepo-test/package-a@0.2.1
+
 ## 0.1.1
 
 ### Patch Changes
