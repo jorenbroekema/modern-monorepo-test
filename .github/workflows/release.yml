@@ -7,6 +7,7 @@ on:
 
 jobs:
   release:
+    if: github.repository == 'jorenbroekema/modern-monorepo-test'
     name: Release
     runs-on: ubuntu-latest
     steps:
@@ -20,7 +21,6 @@ jobs:
         uses: actions/setup-node@master
         with:
           node-version: 12.x
-          registry-url: 'https://registry.npmjs.org'
 
       - name: Install Dependencies
         run: yarn

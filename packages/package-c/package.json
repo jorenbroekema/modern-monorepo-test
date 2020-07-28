@@ -11,5 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "@modern-monorepo-test/package-a": "^0.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
