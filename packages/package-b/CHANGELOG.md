@@ -1,5 +1,11 @@
 # @modern-monorepo-test/package-b
 
+## 0.1.2
+
+### Patch Changes
+
+- 7520a5c: Add publish config public to package jsons
+
 ## 0.1.1
 
 ### Patch Changes
